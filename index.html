@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENSET service</title>
+    <link rel="icon" type="image/png" href="./assets/img/ico.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/css/uikit.min.css" integrity="sha512-hM2N+uBhNm4nz5YZaKRNT48DLZuvGslKiGKl0MWpVD6DWudgUd5ghNVN20A9moDLhLdsqbUt3YKp2s6ZeQRiGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+</head>
+<body>
+   <!-- NavBar -->
+    <nav class="uk-navbar-container uk-visible@m" uk-navbar="offset:0;mode:click">
+
+        <div class="uk-navbar-left">
+    
+            <ul class="uk-navbar-nav uk-margin-left">
+                <li><img class="uk-padding-small" width="250px" src="./assets/img/logo-horison.png" /></li>
+                <li class="uk-active"><a href="#">Home</a></li>
+                <li>
+                    <a href="#">About <span uk-icon="icon: chevron-down;"></span></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+    
+        </div>
+    
+        <div class="uk-navbar-right uk-margin-right">
+    
+            <!-- <ul class="uk-navbar-nav">
+                <li><a href="#">Student SPACE</a></li>
+                <li><a href="#">Admin LOGIN</a></li>
+            </ul> -->
+
+            <ul class="uk-navbar-nav">
+                <li><a href="#">LogOUT</a></li>
+                <li class="uk-active">
+                    <a href="#">
+                        <strong>UserName</strong> &nbsp;
+                        <div class="wrapp">
+                            <div id="avatar"><img width="40px" height="40px" src="./assets/img/ico.png"/></div>
+                            <div id="connected"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+    
+        </div>
+    
+    </nav>
+    <!-- Mobile -->
+    <nav class="uk-navbar uk-navbar-container uk-hidden@m">
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-toggle"  uk-toggle="target: #navMob" uk-navbar-toggle-icon href="#"></a>
+        </div>
+        <div class="uk-navbar-center">
+            <a href="#"><img width="100px" src="assets/img/logo-service.png" /></a>
+        </div>
+    </nav>
+    
+    <div id="navMob" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
+    
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-active"><a href="#"><img src="./assets/img/logo-service.png" /></a></li>
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li class="uk-parent">
+                    <a href="#">About</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Sub item</a></li>
+                        <li><a href="#">Sub item</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+            </ul>
+    
+        </div>
+    </div>
+
+
+
+    <div class="uk-margin-large " align="center">
+        <div class="log uk-width-5-6 uk-card uk-card-default uk-card-body uk-width-1-2@m">
+            <div id="img">
+                <img src="./assets/img/logo-service.png" />
+            </div>
+            <div id="content-login">
+                <br>
+                <h3 class="uk-card-title">Login</h3>
+                <hr>
+                <form>
+
+                    <div>
+                        <div class="uk-inline">
+                            <span class="uk-form-icon" uk-icon="icon: user"></span>
+                            <input class="uk-input uk-form-success" placeholder="E-mail" type="text">
+                        </div>
+                    </div>
+                    <small class="uk-remove-margin uk-success">*Ce message de succes</small>
+                    
+                    <div>
+                        <div class="uk-inline">
+                            <span class="uk-form-icon" uk-icon="icon: lock"></span>
+                            <input class="uk-input uk-form-danger" placeholder="password" type="text">
+                        </div>
+                    </div>
+                    <small class="uk-remove-margin uk-err">*Ce message d'erreur</small>
+                    <div align="right">
+                        <button class="uk-margin-top uk-button uk-button-success" type="submit">LogIn <span uk-icon="sign-in"></span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <p>Copyright © Enset Media</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/uikit.min.js" integrity="sha512-OSTRfXHexzhPF8VccjHh1s3/9nXkvzZVoctPeA6YGPYhaPoVEwXvXd74IuiwpUTp/OpIoMqm5dEgX9W2xK+ICg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/uikit-icons.min.js" integrity="sha512-pCn4YSCG+11Nq6MHxgcmh6IpaSMYbuJmXahX7AWINvUYXpK0yWQGGGeGBiGU23wLfnqEfnSC0+JKYdHdD8Xlsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
