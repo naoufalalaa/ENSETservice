@@ -230,3 +230,7 @@ form label{
     color: rgb(104, 0, 0)!important;
     transition: all ease 500ms;
 }
+
+.uk-alert{
+    border-radius: 15px;
+}
