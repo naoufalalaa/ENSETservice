@@ -229,8 +229,22 @@ form label{
 .reject:hover{
     color: rgb(104, 0, 0)!important;
     transition: all ease 500ms;
+    text-decoration: none;
 }
 
 .uk-alert{
     border-radius: 15px;
+}
+.uk-search-input{
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.2)!important;
+    transition: all ease 500ms;
+}
+.uk-search-input:hover{
+    background-color: rgba(128, 128, 128, 0.1)!important;
+    transition: all ease 500ms;
+}
+.uk-search-input:focus{
+    background-color: rgba(128, 128, 128, 0.1)!important;
+    transition: all ease 500ms;
 }
