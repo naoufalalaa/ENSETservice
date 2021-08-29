@@ -203,6 +203,9 @@ form label{
 .avatarr{
     border: solid 4px white
 }
+.avata{
+    border: solid 4px #3e519e;
+}
 .image-upload>input {
     display: none;
 }
@@ -210,8 +213,6 @@ form label{
     color: green;
     
 }
-
-
 .image-upload>label:hover{
     color: rgb(0, 55, 0)!important;
     transition: all ease 500ms;
@@ -247,4 +248,28 @@ form label{
 .uk-search-input:focus{
     background-color: rgba(128, 128, 128, 0.1)!important;
     transition: all ease 500ms;
+}
+.theme-text{
+    color: #e8cd00!important;
+}
+.uk-color{
+    color: #4a4a4a;
+}
+.resolveCon{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 100px!important;
+    justify-content: center;
+}
+.imgg{
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+}
+.resolve{
+    border-top: solid 2px #3e519e;
+}
+.resolve h3{
+    margin-top: 80px!important;
 }
