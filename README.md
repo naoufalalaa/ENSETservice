@@ -12,6 +12,13 @@ UIkit gives a large hand of technical choices and it is easier to manipulate tha
 ###### if you ever wanted to check their documentation : https://getuikit.com/
 
 ## assets
+
+### Font
+
+>MontSerrat
+>
+![Font](https://i.ibb.co/n3W9fXW/Montserrat-Font.jpg)
+
 ### ScreenShots
 
 Now place to the content : 
