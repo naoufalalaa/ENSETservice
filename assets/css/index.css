@@ -23,6 +23,10 @@ h1,h2,h3,h4,h5,h6{
     color: rgba(62, 81, 158, 0.6) !important;
     transition: all ease 500ms;
 }
+.uk-navbar-right a{
+    color: rgba(62, 81, 158, 1) !important;
+    transition: all ease 500ms;
+}
 
 .uk-navbar-nav li :focus{
     transition: all 500ms ease;
@@ -156,7 +160,7 @@ form label{
     border-radius: 15px;
 }
 .uk-card-grey{
-    background-color: rgba(163, 163, 163, 0.55);
+    background-color: rgba(172, 172, 172, 0.4);
     border-radius: 15px;
 }
 .uk-card-danger{
