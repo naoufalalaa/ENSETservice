@@ -12,7 +12,9 @@
 </head>
 <body>
    <!-- NavBar -->
-    <nav class="uk-navbar-container uk-visible@m" uk-navbar="offset:0;mode:click">
+   <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: #nav; cls-active: nabs uk-navbar-sticky ; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+
+    <nav id="nav" class="uk-navbar-container uk-visible@m" uk-navbar="offset:0;mode:click">
 
         <div class="uk-navbar-left">
     
@@ -56,6 +58,7 @@
         </div>
     
     </nav>
+    </div>
     <!-- Mobile -->
     <nav class="uk-navbar uk-navbar-container uk-hidden@m">
         <div class="uk-navbar-left">
@@ -103,16 +106,16 @@
     </div>
     <!-- MobNav -->
 
-
+<!-- alerts -->
+    <div align="center" class="uk-margin-large">
+        <div class="uk-width-5-6 uk-alert uk-alert-danger" uk-alert><a class="uk-alert-close" uk-close></a>Error, Example</div>
+        <div class="uk-width-5-6 uk-alert uk-alert-success" uk-alert><a class="uk-alert-close" uk-close></a>Success! :)</div>
+        <div class="uk-width-5-6 uk-alert uk-alert-warning" uk-alert><a class="uk-alert-close" uk-close></a>Warning !!</div>
+    </div>
 <!-- Forms -->
 
     <!-- login Admin -->
 
-    <div align="center">
-        <div class="uk-width-5-6 uk-alert uk-alert-danger" uk-alert><a class="uk-alert-close" uk-close></a>Not</div>
-        <div class="uk-width-5-6 uk-alert uk-alert-success" uk-alert><a class="uk-alert-close" uk-close></a>Yes</div>
-        <div class="uk-width-5-6 uk-alert uk-alert-warning" uk-alert><a class="uk-alert-close" uk-close></a>Warning</div>
-    </div>
 
 
         <div class="uk-margin-large" align="center">
@@ -247,21 +250,25 @@
                         </div> 
                     </div>
                 </div>
-                <div class="uk-width-1-3@m">
-                    <div>
-                        <div align="left" class="white">
-                            <small>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</small>
-                        </div> 
+                <div class="uk-grid-small uk-width-2-3@m" uk-grid>
+                    <div class="uk-width-2-3@m">
+                        <div>
+                            <div align="left" class="white">
+                                <!-- Message -->
+                                <small>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</small>
+                            </div> 
+                        </div>
                     </div>
-                </div>
-                <div class="uk-width-1-3@m">
-                    <div>
-                        <div align="right" class="white">
-                            <p><i class="fas fa-exclamation-triangle fa-2x"></i></p>
-                            <small>Created at :  <strong>27/08/2021</strong></small>
+                    <div class="uk-width-1-3@m">
+                        <div>
+                            <div align="right" class="white">
+                                <p><i class="fas fa-exclamation-triangle fa-2x"></i></p>
+                                <small>Created at :  <strong>27/08/2021</strong></small>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
